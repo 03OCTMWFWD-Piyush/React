@@ -1,9 +1,9 @@
-import React from "react";
-
-
-function App () {
+import PostList from "./components/PostList";
+function App(){
   return (
-    <div><h1>React</h1></div>
+    <main>
+      <PostList/>
+    </main>
   )
-}
+};
 export default App;
