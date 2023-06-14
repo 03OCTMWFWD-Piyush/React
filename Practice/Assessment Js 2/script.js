@@ -178,9 +178,9 @@
 // (Q-10) Write a function that would allow you to do this.
 // Multiply (5) (6);
 
-function Multiply (a){
-    return function (b){
-        return a * b;
-    }
-}
-Multiply (5)(6);
+// function Multiply (a){
+//     return function (b){
+//         return a * b;
+//     }
+// }
+// Multiply (5)(6);
