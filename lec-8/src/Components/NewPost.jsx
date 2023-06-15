@@ -1,3 +1,4 @@
+
 function NewPost(props){
     return(
         <form>
@@ -14,4 +15,4 @@ function NewPost(props){
         </form>
     ) 
 } 
- export default NewPost;
+ export default NewPost;  
