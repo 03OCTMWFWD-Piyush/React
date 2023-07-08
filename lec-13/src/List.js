@@ -12,4 +12,4 @@ function List({getItems}){
     return items.map(item=><div key={item}>{item}</div>)
     }
 
-    export default List;  
+    export default List;   

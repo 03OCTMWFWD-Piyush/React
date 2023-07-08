@@ -1,15 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome Redux</h1>
-      
-    </div>
+      <h1>Welcome To Redux</h1>
+     </div>   
   );
-}
+} 
 
 export default App;
   
 
+ 
