@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 
 
-function List({getItems}){
-    const [items,setItems]=useState([]);
+function List({ getItems }) {
+    const [items, setItems] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         setItems(getItems(5));
         console.log("updatting Items");
-    },[getItems]);
+    }, [getItems]);
 
-    return items.map(item=><div key={item}>{item}</div>)
-    }
+    return items.map(item => <div key={item}>{item}</div>)
+}
 
-    export default List;   
+export default List;   
