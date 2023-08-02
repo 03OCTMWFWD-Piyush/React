@@ -1,0 +1,87 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  hr {
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+  h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    background-color: gainsboro;
+    padding: 10px 0;
+  }
+  
+  div[id*="que"] {
+    background-color:brown;
+    padding: 2px 20px;
+    margin: 30px auto;
+  }
+  
+  p,
+  li,
+  dt,
+  dd,
+  blockquote,
+  .ansInfo,
+  form {
+    color: white;
+    font-size: 20px;
+  }
+  
+  li {
+    list-style-position: inside;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .queInfo,
+  .queInfo li {
+    font-size: 15px;
+    background-color: rgb(103, 202, 202);
+    padding: 5px;
+  }
+  
+  .box {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .counter {
+    text-align: center;
+  }
+  
+  button {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 30px;
+  }
