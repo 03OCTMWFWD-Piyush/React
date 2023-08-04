@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.style {
+    text-align: center;
+    background-color:brown;
+    margin: 20px 350px;
+    padding: 10px 200px;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.label {
+    width: 40%;
+}
+
+.inp input {
+    padding: 7px 70px 7px 6px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 150px;
+    color: white;
+    background-color: green;
+}
